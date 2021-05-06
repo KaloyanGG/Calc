@@ -235,6 +235,7 @@ namespace Calc
                    result = (decimal)Math.Sqrt(currentValue);
                         break;
                 default:
+                    result = (decimal)currentValue;
                     break;
             }
             label1.Text = result.ToString();
